@@ -71,6 +71,11 @@ conn.connect((err) =>{
   console.log('Mysql Connecteds...');
 });
 
+app.get('/', (req, res) => {
+  res.send('Connectedss! '+PORT)
+});
+
+
 app.get('/helloworld', (req, res) => {
   res.send('Hello World!')
 });
