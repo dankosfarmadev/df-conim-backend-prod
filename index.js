@@ -5,6 +5,8 @@ const mysql = require('mysql');
 const cors = require('cors');
 // const postgre = require('pg');
 const { Pool } = require('pg')
+const PORT = process.env.PORT || 3001;
+
 // const pgp = require('pg-promise')
 
 // const cn = {
@@ -86,6 +88,6 @@ app.post('/api/query',(req, res) => {
   });
  
 //Server listening
-app.listen(3001,() =>{
-  console.log('Server started on port 3001...');
+app.listen(PORT,() =>{
+  console.log('Server started on NEW port ...'+PORT);
 });
