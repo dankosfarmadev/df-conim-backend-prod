@@ -69,6 +69,11 @@ conn.connect((err) =>{
   console.log('Mysql Connecteds...');
 });
 
+app.get('/helloworld', (req, res) => {
+  res.send('Hello World!')
+});
+
+
 //api query
 app.post('/api/query',(req, res) => {
     let sql = req.body.query;
