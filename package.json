@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ./index.js",
+    "start": "node ./index.js",
     "backend": "nodemon ./index.js",
     "backend_pm2": "pm2 start ./index.js",
     "backend_pm2_2": "pm2 start ./index2.js",
