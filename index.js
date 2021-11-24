@@ -51,13 +51,27 @@ app.use(cors());
 //   port: 5432
 // })
 
-// Production
+// // Production lama
+// // create database connection Heroku Postgres
+// const conn = new Pool({
+//   user:'rrzfiejogdkdwx',
+//   host:'ec2-54-83-137-206.compute-1.amazonaws.com',
+//   database:'d1q7dno61bc5l7',
+//   password: '704d4554e66350d5e620380bd9389defaebb92e23e8aba0045141e863455262d',
+//   port: 5432,
+//   native: true,
+//   ssl: {
+//     rejectUnauthorized: false
+//   }
+// })
+
+// Production baru
 // create database connection Heroku Postgres
 const conn = new Pool({
-  user:'rrzfiejogdkdwx',
-  host:'ec2-54-83-137-206.compute-1.amazonaws.com',
-  database:'d1q7dno61bc5l7',
-  password: '704d4554e66350d5e620380bd9389defaebb92e23e8aba0045141e863455262d',
+  user:'kfbmhzlpgtnsye',
+  host:'ec2-3-231-112-124.compute-1.amazonaws.com',
+  database:'dff62l154mvrms',
+  password: '658aa96d1e6ca638e8fed40670e85581113e0c98b9a373c40fb94004dd26e59a',
   port: 5432,
   native: true,
   ssl: {
