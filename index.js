@@ -65,13 +65,27 @@ app.use(cors());
 //   }
 // })
 
-// Production baru
+// // Production baru
+// // create database connection Heroku Postgres
+// const conn = new Pool({
+//   user:'kfbmhzlpgtnsye',
+//   host:'ec2-3-231-112-124.compute-1.amazonaws.com',
+//   database:'dff62l154mvrms',
+//   password: '658aa96d1e6ca638e8fed40670e85581113e0c98b9a373c40fb94004dd26e59a',
+//   port: 5432,
+//   native: true,
+//   ssl: {
+//     rejectUnauthorized: false
+//   }
+// })
+
+// Production baru v2
 // create database connection Heroku Postgres
 const conn = new Pool({
-  user:'kfbmhzlpgtnsye',
-  host:'ec2-3-231-112-124.compute-1.amazonaws.com',
-  database:'dff62l154mvrms',
-  password: '658aa96d1e6ca638e8fed40670e85581113e0c98b9a373c40fb94004dd26e59a',
+  user:'kljckhdzazocqm',
+  host:'ec2-52-4-153-146.compute-1.amazonaws.com',
+  database:'detug68mgsjn75',
+  password: '8f486746e2d32d66105e140587dc4f692b3729136e09c6dc4a14c85ba86e5905',
   port: 5432,
   native: true,
   ssl: {
