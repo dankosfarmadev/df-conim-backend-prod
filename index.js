@@ -81,11 +81,25 @@ app.use(cors());
 
 // Production baru v3
 // create database connection Heroku Postgres
+// const conn = new Pool({
+//   user:'zgqdfsiiytqtju',
+//   host:'ec2-34-233-242-44.compute-1.amazonaws.com',
+//   database:'d4oa55lhc0qmr2',
+//   password: '2c67fc7b9195279f51e0f29f9215bcc66f61500895cba7509907b22336de2caf',
+//   port: 5432,
+//   native: true,
+//   ssl: {
+//     rejectUnauthorized: false
+//   }
+// })
+
+// Production baru v4 18 apr 2024
+// create database connection Heroku Postgres
 const conn = new Pool({
-  user:'zgqdfsiiytqtju',
-  host:'ec2-34-233-242-44.compute-1.amazonaws.com',
-  database:'d4oa55lhc0qmr2',
-  password: '2c67fc7b9195279f51e0f29f9215bcc66f61500895cba7509907b22336de2caf',
+  user:'ddmqupliqueuaw',
+  host:'ec2-52-20-78-241.compute-1.amazonaws.com',
+  database:'dspsuhumsg20k',
+  password: 'bf74b60a1e47a77021c33816ac9e7f886496492753f93cb8a4b832a202b0004f',
   port: 5432,
   native: true,
   ssl: {
